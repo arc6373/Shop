@@ -1,0 +1,4291 @@
+Items:
+   code_1/0:
+       name: Stone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_1/1:
+       name: Granite
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_1/2:
+       name: Polished Granite
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_1/3:
+       name: Diorite
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_1/4:
+       name: Polished Diorite
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_1/5:
+       name: Andesite
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_1/6:
+       name: Polished Andesite
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2/0:
+       name: Grass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_3/0:
+       name: Dirt
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_3/1:
+       name: Coarse Dirt
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_3/2:
+       name: Podzol
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_4/0:
+       name: Cobblestone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_5/0:
+       name: Oak Wood Plank
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_5/1:
+       name: Spruce Wood Plank
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_5/2:
+       name: Birch Wood Plank
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_5/3:
+       name: Jungle Wood Plank
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_5/4:
+       name: Acacia Wood Plank
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_5/5:
+       name: Dark Oak Wood Plank
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_6/0:
+       name: Oak Sapling
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_6/1:
+       name: Spruce Sapling
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_6/2:
+       name: Birch Sapling
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_6/3:
+       name: Jungle Sapling
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_6/4:
+       name: Acacia Sapling
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_6/5:
+       name: Dark Oak Sapling
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_7/0:
+       name: Bedrock
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_8/0:
+       name: Flowing Water
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_9/0:
+       name: Still Water
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_10/0:
+       name: Flowing Lava
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_11/0:
+       name: Still Lava
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_12/0:
+       name: Sand
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_12/1:
+       name: Red Sand
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_13/0:
+       name: Gravel
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_14/0:
+       name: Gold Ore
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_15/0:
+       name: Iron Ore
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_16/0:
+       name: Coal Ore
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_17/0:
+       name: Oak Wood
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_17/1:
+       name: Spruce Wood
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_17/2:
+       name: Birch Wood
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_17/3:
+       name: Jungle Wood
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_18/0:
+       name: Oak Leaves
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_18/1:
+       name: Spruce Leaves
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_18/2:
+       name: Birch Leaves
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_18/3:
+       name: Jungle Leaves
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_19/0:
+       name: Sponge
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_19/1:
+       name: Wet Sponge
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_20/0:
+       name: Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_21/0:
+       name: Lapis Lazuli Ore
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_22/0:
+       name: Lapis Lazuli Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_23/0:
+       name: Dispenser
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_24/0:
+       name: Sandstone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_24/1:
+       name: Chiseled Sandstone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_24/2:
+       name: Smooth Sandstone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_25/0:
+       name: Note Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_26/0:
+       name: Bed
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_27/0:
+       name: Powered Rail
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_28/0:
+       name: Detector Rail
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_29/0:
+       name: Sticky Piston
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_30/0:
+       name: Cobweb
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_31/0:
+       name: Dead Shrub
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_31/1:
+       name: Grass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_31/2:
+       name: Fern
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_32/0:
+       name: Dead Bush
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_33/0:
+       name: Piston
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_34/0:
+       name: Piston Head
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/0:
+       name: White Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/1:
+       name: Orange Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/2:
+       name: Magenta Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/3:
+       name: Light Blue Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/4:
+       name: Yellow Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/5:
+       name: Lime Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/6:
+       name: Pink Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/7:
+       name: Gray Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/8:
+       name: Light Gray Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/9:
+       name: Cyan Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/10:
+       name: Purple Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/11:
+       name: Blue Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/12:
+       name: Brown Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/13:
+       name: Green Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/14:
+       name: Red Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_35/15:
+       name: Black Wool
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_37/0:
+       name: Dandelion
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_38/0:
+       name: Poppy
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_38/1:
+       name: Blue Orchid
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_38/2:
+       name: Allium
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_38/3:
+       name: Azure Bluet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_38/4:
+       name: Red Tulip
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_38/5:
+       name: Orange Tulip
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_38/6:
+       name: White Tulip
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_38/7:
+       name: Pink Tulip
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_38/8:
+       name: Oxeye Daisy
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_39/0:
+       name: Brown Mushroom
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_40/0:
+       name: Red Mushroom
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_41/0:
+       name: Gold Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_42/0:
+       name: Iron Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_43/0:
+       name: Double Stone Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_43/1:
+       name: Double Sandstone Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_43/2:
+       name: Double Wooden Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_43/3:
+       name: Double Cobblestone Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_43/4:
+       name: Double Brick Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_43/5:
+       name: Double Stone Brick Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_43/6:
+       name: Double Nether Brick Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_43/7:
+       name: Double Quartz Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_44/0:
+       name: Stone Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_44/1:
+       name: Sandstone Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_44/2:
+       name: Wooden Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_44/3:
+       name: Cobblestone Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_44/4:
+       name: Brick Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_44/5:
+       name: Stone Brick Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_44/6:
+       name: Nether Brick Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_44/7:
+       name: Quartz Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_45/0:
+       name: Bricks
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_46/0:
+       name: TNT
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_47/0:
+       name: Bookshelf
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_48/0:
+       name: Moss Stone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_49/0:
+       name: Obsidian
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_50/0:
+       name: Torch
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_51/0:
+       name: Fire
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_52/0:
+       name: Monster Spawner
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_53/0:
+       name: Oak Wood Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_54/0:
+       name: Chest
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_55/0:
+       name: Redstone Wire
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_56/0:
+       name: Diamond Ore
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_57/0:
+       name: Diamond Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_58/0:
+       name: Crafting Table
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_59/0:
+       name: Wheat Crops
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_60/0:
+       name: Farmland
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_61/0:
+       name: Furnace
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_62/0:
+       name: Burning Furnace
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_63/0:
+       name: Standing Sign Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_64/0:
+       name: Oak Door Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_65/0:
+       name: Ladder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_66/0:
+       name: Rail
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_67/0:
+       name: Cobblestone Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_68/0:
+       name: Wall-mounted Sign Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_69/0:
+       name: Lever
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_70/0:
+       name: Stone Pressure Plate
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_71/0:
+       name: Iron Door Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_72/0:
+       name: Wooden Pressure Plate
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_73/0:
+       name: Redstone Ore
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_74/0:
+       name: Glowing Redstone Ore
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_75/0:
+       name: Redstone Torch (off)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_76/0:
+       name: Redstone Torch (on)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_77/0:
+       name: Stone Button
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_78/0:
+       name: Snow
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_79/0:
+       name: Ice
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_80/0:
+       name: Snow Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_81/0:
+       name: Cactus
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_82/0:
+       name: Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_83/0:
+       name: Sugar Canes
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_84/0:
+       name: Jukebox
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_85/0:
+       name: Oak Fence
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_86/0:
+       name: Pumpkin
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_87/0:
+       name: Netherrack
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_88/0:
+       name: Soul Sand
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_89/0:
+       name: Glowstone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_90/0:
+       name: Nether Portal
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_91/0:
+       name: Jack o'Lantern
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_92/0:
+       name: Cake Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_93/0:
+       name: Redstone Repeater Block (off)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_94/0:
+       name: Redstone Repeater Block (on)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/0:
+       name: White Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/1:
+       name: Orange Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/2:
+       name: Magenta Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/3:
+       name: Light Blue Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/4:
+       name: Yellow Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/5:
+       name: Lime Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/6:
+       name: Pink Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/7:
+       name: Gray Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/8:
+       name: Light Gray Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/9:
+       name: Cyan Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/10:
+       name: Purple Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/11:
+       name: Blue Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/12:
+       name: Brown Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/13:
+       name: Green Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/14:
+       name: Red Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_95/15:
+       name: Black Stained Glass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_96/0:
+       name: Wooden Trapdoor
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_97/0:
+       name: Stone Monster Egg
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_97/1:
+       name: Cobblestone Monster Egg
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_97/2:
+       name: Stone Brick Monster Egg
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_97/3:
+       name: Mossy Stone Brick Monster Egg
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_97/4:
+       name: Cracked Stone Brick Monster Egg
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_97/5:
+       name: Chiseled Stone Brick Monster Egg
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_98/0:
+       name: Stone Bricks
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_98/1:
+       name: Mossy Stone Bricks
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_98/2:
+       name: Cracked Stone Bricks
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_98/3:
+       name: Chiseled Stone Bricks
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_99/0:
+       name: Brown Mushroom Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_100/0:
+       name: Red Mushroom Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_101/0:
+       name: Iron Bars
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_102/0:
+       name: Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_103/0:
+       name: Melon Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_104/0:
+       name: Pumpkin Stem
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_105/0:
+       name: Melon Stem
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_106/0:
+       name: Vines
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_107/0:
+       name: Oak Fence Gate
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_108/0:
+       name: Brick Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_109/0:
+       name: Stone Brick Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_110/0:
+       name: Mycelium
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_111/0:
+       name: Lily Pad
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_112/0:
+       name: Nether Brick
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_113/0:
+       name: Nether Brick Fence
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_114/0:
+       name: Nether Brick Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_115/0:
+       name: Nether Wart
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_116/0:
+       name: Enchantment Table
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_117/0:
+       name: Brewing Stand
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_118/0:
+       name: Cauldron
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_119/0:
+       name: End Portal
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_120/0:
+       name: End Portal Frame
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_121/0:
+       name: End Stone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_122/0:
+       name: Dragon Egg
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_123/0:
+       name: Redstone Lamp (inactive)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_124/0:
+       name: Redstone Lamp (active)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_125/0:
+       name: Double Oak Wood Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_125/1:
+       name: Double Spruce Wood Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_125/2:
+       name: Double Birch Wood Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_125/3:
+       name: Double Jungle Wood Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_125/4:
+       name: Double Acacia Wood Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_125/5:
+       name: Double Dark Oak Wood Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_126/0:
+       name: Oak Wood Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_126/1:
+       name: Spruce Wood Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_126/2:
+       name: Birch Wood Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_126/3:
+       name: Jungle Wood Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_126/4:
+       name: Acacia Wood Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_126/5:
+       name: Dark Oak Wood Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_127/0:
+       name: Cocoa
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_128/0:
+       name: Sandstone Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_129/0:
+       name: Emerald Ore
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_130/0:
+       name: Ender Chest
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_131/0:
+       name: Tripwire Hook
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_132/0:
+       name: Tripwire
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_133/0:
+       name: Emerald Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_134/0:
+       name: Spruce Wood Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_135/0:
+       name: Birch Wood Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_136/0:
+       name: Jungle Wood Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_137/0:
+       name: Command Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_138/0:
+       name: Beacon
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_139/0:
+       name: Cobblestone Wall
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_139/1:
+       name: Mossy Cobblestone Wall
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_140/0:
+       name: Flower Pot
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_141/0:
+       name: Carrots
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_142/0:
+       name: Potatoes
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_143/0:
+       name: Wooden Button
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_144/0:
+       name: Mob Head
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_145/0:
+       name: Anvil
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_146/0:
+       name: Trapped Chest
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_147/0:
+       name: Weighted Pressure Plate (light)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_148/0:
+       name: Weighted Pressure Plate (heavy)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_149/0:
+       name: Redstone Comparator (inactive)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_150/0:
+       name: Redstone Comparator (active)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_151/0:
+       name: Daylight Sensor
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_152/0:
+       name: Redstone Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_153/0:
+       name: Nether Quartz Ore
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_154/0:
+       name: Hopper
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_155/0:
+       name: Quartz Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_155/1:
+       name: Chiseled Quartz Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_155/2:
+       name: Pillar Quartz Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_156/0:
+       name: Quartz Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_157/0:
+       name: Activator Rail
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_158/0:
+       name: Dropper
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/0:
+       name: White Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/1:
+       name: Orange Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/2:
+       name: Magenta Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/3:
+       name: Light Blue Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/4:
+       name: Yellow Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/5:
+       name: Lime Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/6:
+       name: Pink Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/7:
+       name: Gray Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/8:
+       name: Light Gray Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/9:
+       name: Cyan Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/10:
+       name: Purple Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/11:
+       name: Blue Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/12:
+       name: Brown Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/13:
+       name: Green Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/14:
+       name: Red Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_159/15:
+       name: Black Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/0:
+       name: White Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/1:
+       name: Orange Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/2:
+       name: Magenta Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/3:
+       name: Light Blue Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/4:
+       name: Yellow Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/5:
+       name: Lime Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/6:
+       name: Pink Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/7:
+       name: Gray Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/8:
+       name: Light Gray Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/9:
+       name: Cyan Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/10:
+       name: Purple Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/11:
+       name: Blue Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/12:
+       name: Brown Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/13:
+       name: Green Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/14:
+       name: Red Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_160/15:
+       name: Black Stained Glass Pane
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_161/0:
+       name: Acacia Leaves
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_161/1:
+       name: Dark Oak Leaves
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_162/0:
+       name: Acacia Wood
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_162/1:
+       name: Dark Oak Wood
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_163/0:
+       name: Acacia Wood Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_164/0:
+       name: Dark Oak Wood Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_165/0:
+       name: Slime Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_166/0:
+       name: Barrier
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_167/0:
+       name: Iron Trapdoor
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_168/0:
+       name: Prismarine
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_168/1:
+       name: Prismarine Bricks
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_168/2:
+       name: Dark Prismarine
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_169/0:
+       name: Sea Lantern
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_170/0:
+       name: Hay Bale
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/0:
+       name: White Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/1:
+       name: Orange Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/2:
+       name: Magenta Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/3:
+       name: Light Blue Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/4:
+       name: Yellow Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/5:
+       name: Lime Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/6:
+       name: Pink Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/7:
+       name: Gray Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/8:
+       name: Light Gray Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/9:
+       name: Cyan Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/10:
+       name: Purple Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/11:
+       name: Blue Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/12:
+       name: Brown Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/13:
+       name: Green Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/14:
+       name: Red Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_171/15:
+       name: Black Carpet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_172/0:
+       name: Hardened Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_173/0:
+       name: Block of Coal
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_174/0:
+       name: Packed Ice
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_175/0:
+       name: Sunflower
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_175/1:
+       name: Lilac
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_175/2:
+       name: Double Tallgrass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_175/3:
+       name: Large Fern
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_175/4:
+       name: Rose Bush
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_175/5:
+       name: Peony
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_176/0:
+       name: Free-standing Banner
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_177/0:
+       name: Wall-mounted Banner
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_178/0:
+       name: Inverted Daylight Sensor
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_179/0:
+       name: Red Sandstone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_179/1:
+       name: Chiseled Red Sandstone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_179/2:
+       name: Smooth Red Sandstone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_180/0:
+       name: Red Sandstone Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_181/0:
+       name: Double Red Sandstone Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_182/0:
+       name: Red Sandstone Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_183/0:
+       name: Spruce Fence Gate
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_184/0:
+       name: Birch Fence Gate
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_185/0:
+       name: Jungle Fence Gate
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_186/0:
+       name: Dark Oak Fence Gate
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_187/0:
+       name: Acacia Fence Gate
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_188/0:
+       name: Spruce Fence
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_189/0:
+       name: Birch Fence
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_190/0:
+       name: Jungle Fence
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_191/0:
+       name: Dark Oak Fence
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_192/0:
+       name: Acacia Fence
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_193/0:
+       name: Spruce Door Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_194/0:
+       name: Birch Door Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_195/0:
+       name: Jungle Door Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_196/0:
+       name: Acacia Door Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_197/0:
+       name: Dark Oak Door Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_198/0:
+       name: End Rod
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_199/0:
+       name: Chorus Plant
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_200/0:
+       name: Chorus Flower
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_201/0:
+       name: Purpur Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_202/0:
+       name: Purpur Pillar
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_203/0:
+       name: Purpur Stairs
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_204/0:
+       name: Purpur Double Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_205/0:
+       name: Purpur Slab
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_206/0:
+       name: End Stone Bricks
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_207/0:
+       name: Beetroot Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_208/0:
+       name: Grass Path
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_209/0:
+       name: End Gateway
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_210/0:
+       name: Repeating Command Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_211/0:
+       name: Chain Command Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_212/0:
+       name: Frosted Ice
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_213/0:
+       name: Magma Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_214/0:
+       name: Nether Wart Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_215/0:
+       name: Red Nether Brick
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_216/0:
+       name: Bone Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_217/0:
+       name: Structure Void
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_218/0:
+       name: Observer
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_219/0:
+       name: White Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_220/0:
+       name: Orange Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_221/0:
+       name: Magenta Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_222/0:
+       name: Light Blue Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_223/0:
+       name: Yellow Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_224/0:
+       name: Lime Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_225/0:
+       name: Pink Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_226/0:
+       name: Gray Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_227/0:
+       name: Light Gray Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_228/0:
+       name: Cyan Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_229/0:
+       name: Purple Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_230/0:
+       name: Blue Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_231/0:
+       name: Brown Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_232/0:
+       name: Green Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_233/0:
+       name: Red Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_234/0:
+       name: Black Shulker Box
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_235/0:
+       name: White Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_236/0:
+       name: Orange Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_237/0:
+       name: Magenta Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_238/0:
+       name: Light Blue Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_239/0:
+       name: Yellow Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_240/0:
+       name: Lime Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_241/0:
+       name: Pink Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_242/0:
+       name: Gray Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_243/0:
+       name: Light Gray Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_244/0:
+       name: Cyan Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_245/0:
+       name: Purple Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_246/0:
+       name: Blue Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_247/0:
+       name: Brown Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_248/0:
+       name: Green Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_249/0:
+       name: Red Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_250/0:
+       name: Black Glazed Terracotta
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/0:
+       name: White Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/1:
+       name: Orange Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/2:
+       name: Magenta Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/3:
+       name: Light Blue Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/4:
+       name: Yellow Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/5:
+       name: Lime Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/6:
+       name: Pink Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/7:
+       name: Gray Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/8:
+       name: Light Gray Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/9:
+       name: Cyan Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/10:
+       name: Purple Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/11:
+       name: Blue Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/12:
+       name: Brown Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/13:
+       name: Green Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/14:
+       name: Red Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_251/15:
+       name: Black Concrete
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/0:
+       name: White Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/1:
+       name: Orange Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/2:
+       name: Magenta Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/3:
+       name: Light Blue Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/4:
+       name: Yellow Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/5:
+       name: Lime Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/6:
+       name: Pink Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/7:
+       name: Gray Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/8:
+       name: Light Gray Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/9:
+       name: Cyan Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/10:
+       name: Purple Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/11:
+       name: Blue Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/12:
+       name: Brown Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/13:
+       name: Green Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/14:
+       name: Red Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_252/15:
+       name: Black Concrete Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_255/0:
+       name: Structure Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_256/0:
+       name: Iron Shovel
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_257/0:
+       name: Iron Pickaxe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_258/0:
+       name: Iron Axe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_259/0:
+       name: Flint and Steel
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_260/0:
+       name: Apple
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_261/0:
+       name: Bow
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_262/0:
+       name: Arrow
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_263/0:
+       name: Coal
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_263/1:
+       name: Charcoal
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_264/0:
+       name: Diamond
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_265/0:
+       name: Iron Ingot
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_266/0:
+       name: Gold Ingot
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_267/0:
+       name: Iron Sword
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_268/0:
+       name: Wooden Sword
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_269/0:
+       name: Wooden Shovel
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_270/0:
+       name: Wooden Pickaxe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_271/0:
+       name: Wooden Axe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_272/0:
+       name: Stone Sword
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_273/0:
+       name: Stone Shovel
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_274/0:
+       name: Stone Pickaxe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_275/0:
+       name: Stone Axe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_276/0:
+       name: Diamond Sword
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_277/0:
+       name: Diamond Shovel
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_278/0:
+       name: Diamond Pickaxe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_279/0:
+       name: Diamond Axe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_280/0:
+       name: Stick
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_281/0:
+       name: Bowl
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_282/0:
+       name: Mushroom Stew
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_283/0:
+       name: Golden Sword
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_284/0:
+       name: Golden Shovel
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_285/0:
+       name: Golden Pickaxe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_286/0:
+       name: Golden Axe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_287/0:
+       name: String
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_288/0:
+       name: Feather
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_289/0:
+       name: Gunpowder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_290/0:
+       name: Wooden Hoe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_291/0:
+       name: Stone Hoe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_292/0:
+       name: Iron Hoe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_293/0:
+       name: Diamond Hoe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_294/0:
+       name: Golden Hoe
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_295/0:
+       name: Wheat Seeds
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_296/0:
+       name: Wheat
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_297/0:
+       name: Bread
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_298/0:
+       name: Leather Helmet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_299/0:
+       name: Leather Tunic
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_300/0:
+       name: Leather Pants
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_301/0:
+       name: Leather Boots
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_302/0:
+       name: Chainmail Helmet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_303/0:
+       name: Chainmail Chestplate
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_304/0:
+       name: Chainmail Leggings
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_305/0:
+       name: Chainmail Boots
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_306/0:
+       name: Iron Helmet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_307/0:
+       name: Iron Chestplate
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_308/0:
+       name: Iron Leggings
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_309/0:
+       name: Iron Boots
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_310/0:
+       name: Diamond Helmet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_311/0:
+       name: Diamond Chestplate
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_312/0:
+       name: Diamond Leggings
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_313/0:
+       name: Diamond Boots
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_314/0:
+       name: Golden Helmet
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_315/0:
+       name: Golden Chestplate
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_316/0:
+       name: Golden Leggings
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_317/0:
+       name: Golden Boots
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_318/0:
+       name: Flint
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_319/0:
+       name: Raw Porkchop
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_320/0:
+       name: Cooked Porkchop
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_321/0:
+       name: Painting
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_322/0:
+       name: Golden Apple
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_322/1:
+       name: Enchanted Golden Apple
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_323/0:
+       name: Sign
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_324/0:
+       name: Oak Door
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_325/0:
+       name: Bucket
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_326/0:
+       name: Water Bucket
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_327/0:
+       name: Lava Bucket
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_328/0:
+       name: Minecart
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_329/0:
+       name: Saddle
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_330/0:
+       name: Iron Door
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_331/0:
+       name: Redstone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_332/0:
+       name: Snowball
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_333/0:
+       name: Oak Boat
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_334/0:
+       name: Leather
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_335/0:
+       name: Milk Bucket
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_336/0:
+       name: Brick
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_337/0:
+       name: Clay
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_338/0:
+       name: Sugar Canes
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_339/0:
+       name: Paper
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_340/0:
+       name: Book
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_341/0:
+       name: Slimeball
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_342/0:
+       name: Minecart with Chest
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_343/0:
+       name: Minecart with Furnace
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_344/0:
+       name: Egg
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_345/0:
+       name: Compass
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_346/0:
+       name: Fishing Rod
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_347/0:
+       name: Clock
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_348/0:
+       name: Glowstone Dust
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_349/0:
+       name: Raw Fish
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_349/1:
+       name: Raw Salmon
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_349/2:
+       name: Clownfish
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_349/3:
+       name: Pufferfish
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_350/0:
+       name: Cooked Fish
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_350/1:
+       name: Cooked Salmon
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/0:
+       name: Ink Sack
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/1:
+       name: Rose Red
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/2:
+       name: Cactus Green
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/3:
+       name: Coco Beans
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/4:
+       name: Lapis Lazuli
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/5:
+       name: Purple Dye
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/6:
+       name: Cyan Dye
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/7:
+       name: Light Gray Dye
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/8:
+       name: Gray Dye
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/9:
+       name: Pink Dye
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/10:
+       name: Lime Dye
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/11:
+       name: Dandelion Yellow
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/12:
+       name: Light Blue Dye
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/13:
+       name: Magenta Dye
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/14:
+       name: Orange Dye
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_351/15:
+       name: Bone Meal
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_352/0:
+       name: Bone
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_353/0:
+       name: Sugar
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_354/0:
+       name: Cake
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_355/0:
+       name: Bed
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_356/0:
+       name: Redstone Repeater
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_357/0:
+       name: Cookie
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_358/0:
+       name: Map
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_359/0:
+       name: Shears
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_360/0:
+       name: Melon
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_361/0:
+       name: Pumpkin Seeds
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_362/0:
+       name: Melon Seeds
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_363/0:
+       name: Raw Beef
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_364/0:
+       name: Steak
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_365/0:
+       name: Raw Chicken
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_366/0:
+       name: Cooked Chicken
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_367/0:
+       name: Rotten Flesh
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_368/0:
+       name: Ender Pearl
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_369/0:
+       name: Blaze Rod
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_370/0:
+       name: Ghast Tear
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_371/0:
+       name: Gold Nugget
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_372/0:
+       name: Nether Wart
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_373/0:
+       name: Potion
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_374/0:
+       name: Glass Bottle
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_375/0:
+       name: Spider Eye
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_376/0:
+       name: Fermented Spider Eye
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_377/0:
+       name: Blaze Powder
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_378/0:
+       name: Magma Cream
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_379/0:
+       name: Brewing Stand
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_380/0:
+       name: Cauldron
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_381/0:
+       name: Eye of Ender
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_382/0:
+       name: Glistering Melon
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/4:
+       name: Spawn Elder Guardian
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/5:
+       name: Spawn Wither Skeleton
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/6:
+       name: Spawn Stray
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/23:
+       name: Spawn Husk
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/27:
+       name: Spawn Zombie Villager
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/28:
+       name: Spawn Skeleton Horse
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/29:
+       name: Spawn Zombie Horse
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/31:
+       name: Spawn Donkey
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/32:
+       name: Spawn Mule
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/34:
+       name: Spawn Evoker
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/35:
+       name: Spawn Vex
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/36:
+       name: Spawn Vindicator
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/50:
+       name: Spawn Creeper
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/51:
+       name: Spawn Skeleton
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/52:
+       name: Spawn Spider
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/54:
+       name: Spawn Zombie
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/55:
+       name: Spawn Slime
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/56:
+       name: Spawn Ghast
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/57:
+       name: Spawn Zombie Pigman
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/58:
+       name: Spawn Enderman
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/59:
+       name: Spawn Cave Spider
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/60:
+       name: Spawn Silverfish
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/61:
+       name: Spawn Blaze
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/62:
+       name: Spawn Magma Cube
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/65:
+       name: Spawn Bat
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/66:
+       name: Spawn Witch
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/67:
+       name: Spawn Endermite
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/68:
+       name: Spawn Guardian
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/69:
+       name: Spawn Shulker
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/90:
+       name: Spawn Pig
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/91:
+       name: Spawn Sheep
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/92:
+       name: Spawn Cow
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/93:
+       name: Spawn Chicken
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/94:
+       name: Spawn Squid
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/95:
+       name: Spawn Wolf
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/96:
+       name: Spawn Mooshroom
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/98:
+       name: Spawn Ocelot
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/100:
+       name: Spawn Horse
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/101:
+       name: Spawn Rabbit
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/102:
+       name: Spawn Polar Bear
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/103:
+       name: Spawn Llama
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_383/120:
+       name: Spawn Villager
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_384/0:
+       name: Bottle o' Enchanting
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_385/0:
+       name: Fire Charge
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_386/0:
+       name: Book and Quill
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_387/0:
+       name: Written Book
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_388/0:
+       name: Emerald
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_389/0:
+       name: Item Frame
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_390/0:
+       name: Flower Pot
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_391/0:
+       name: Carrot
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_392/0:
+       name: Potato
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_393/0:
+       name: Baked Potato
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_394/0:
+       name: Poisonous Potato
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_395/0:
+       name: Empty Map
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_396/0:
+       name: Golden Carrot
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_397/0:
+       name: Mob Head (Skeleton)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_397/1:
+       name: Mob Head (Wither Skeleton)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_397/2:
+       name: Mob Head (Zombie)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_397/3:
+       name: Mob Head (Human)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_397/4:
+       name: Mob Head (Creeper)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_397/5:
+       name: Mob Head (Dragon)
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_398/0:
+       name: Carrot on a Stick
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_399/0:
+       name: Nether Star
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_400/0:
+       name: Pumpkin Pie
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_401/0:
+       name: Firework Rocket
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_402/0:
+       name: Firework Star
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_403/0:
+       name: Enchanted Book
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_404/0:
+       name: Redstone Comparator
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_405/0:
+       name: Nether Brick
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_406/0:
+       name: Nether Quartz
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_407/0:
+       name: Minecart with TNT
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_408/0:
+       name: Minecart with Hopper
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_409/0:
+       name: Prismarine Shard
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_410/0:
+       name: Prismarine Crystals
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_411/0:
+       name: Raw Rabbit
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_412/0:
+       name: Cooked Rabbit
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_413/0:
+       name: Rabbit Stew
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_414/0:
+       name: Rabbit's Foot
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_415/0:
+       name: Rabbit Hide
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_416/0:
+       name: Armor Stand
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_417/0:
+       name: Iron Horse Armor
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_418/0:
+       name: Golden Horse Armor
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_419/0:
+       name: Diamond Horse Armor
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_420/0:
+       name: Lead
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_421/0:
+       name: Name Tag
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_422/0:
+       name: Minecart with Command Block
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_423/0:
+       name: Raw Mutton
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_424/0:
+       name: Cooked Mutton
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_425/0:
+       name: Banner
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_427/0:
+       name: Spruce Door
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_428/0:
+       name: Birch Door
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_429/0:
+       name: Jungle Door
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_430/0:
+       name: Acacia Door
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_431/0:
+       name: Dark Oak Door
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_432/0:
+       name: Chorus Fruit
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_433/0:
+       name: Popped Chorus Fruit
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_434/0:
+       name: Beetroot
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_435/0:
+       name: Beetroot Seeds
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_436/0:
+       name: Beetroot Soup
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_437/0:
+       name: Dragon's Breath
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_438/0:
+       name: Splash Potion
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_439/0:
+       name: Spectral Arrow
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_440/0:
+       name: Tipped Arrow
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_441/0:
+       name: Lingering Potion
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_442/0:
+       name: Shield
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_443/0:
+       name: Elytra
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_444/0:
+       name: Spruce Boat
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_445/0:
+       name: Birch Boat
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_446/0:
+       name: Jungle Boat
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_447/0:
+       name: Acacia Boat
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_448/0:
+       name: Dark Oak Boat
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_449/0:
+       name: Totem of Undying
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_450/0:
+       name: Shulker Shell
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_452/0:
+       name: Iron Nugget
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2256/0:
+       name: 13 Disc
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2257/0:
+       name: Cat Disc
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2258/0:
+       name: Blocks Disc
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2259/0:
+       name: Chirp Disc
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2260/0:
+       name: Far Disc
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2261/0:
+       name: Mall Disc
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2262/0:
+       name: Mellohi Disc
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2263/0:
+       name: Stal Disc
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2264/0:
+       name: Strad Disc
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2265/0:
+       name: Ward Disc
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2266/0:
+       name: 11 Disc
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
+   code_2267/0:
+       name: Wait Disc
+       buy: ''
+       buy_amount: '1'
+       sell: ''
+       sell_amount: '1'
