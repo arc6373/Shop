@@ -75,7 +75,7 @@ public class PriceManager
     player.openInventory(inventory);
   }
   
-  public static void openPriceSet(String action, Player player, int price)
+  public static void openPriceSet(String action, Player player, double price)
   {
     if (price < 0)
     {

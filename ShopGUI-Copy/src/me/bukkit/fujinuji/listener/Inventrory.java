@@ -553,7 +553,7 @@ public class Inventrory
       if ((e.getSlot() >= 10) && (e.getSlot() <= 33) && (e.getClick() == ClickType.LEFT) && (item_clicked.getType() != Material.AIR))
       {
         String buy_price = YamlConfig.getShopConfiguration().getString("Items.code_" + item_clicked.getTypeId() + "/" + item_clicked.getData().getData() + ".buy");
-        Variables.price = Integer.parseInt(buy_price.length() == 0 ? "0" : buy_price);
+        Variables.price = Double.parseDouble(buy_price.length() == 0 ? "0" : buy_price);
         Variables.amount = Integer.parseInt(YamlConfig.getShopConfiguration().getString("Items.code_" + item_clicked.getTypeId() + "/" + item_clicked.getData().getData() + ".buy_amount"));
         Variables.item_code = "code_" + item_clicked.getTypeId() + "/" + item_clicked.getData().getData();
         Variables.action = "Buy";
@@ -562,7 +562,7 @@ public class Inventrory
       if ((e.getSlot() >= 10) && (e.getSlot() <= 33) && (e.getClick() == ClickType.RIGHT) && (item_clicked.getType() != Material.AIR))
       {
         String sell_price = YamlConfig.getShopConfiguration().getString("Items.code_" + item_clicked.getTypeId() + "/" + item_clicked.getData().getData() + ".sell");
-        Variables.price = Integer.parseInt(sell_price.length() == 0 ? "0" : sell_price);
+        Variables.price = Double.parseDouble(sell_price.length() == 0 ? "0" : sell_price);
         Variables.amount = Integer.parseInt(YamlConfig.getShopConfiguration().getString("Items.code_" + item_clicked.getTypeId() + "/" + item_clicked.getData().getData() + ".sell_amount"));
         Variables.item_code = "code_" + item_clicked.getTypeId() + "/" + item_clicked.getData().getData();
         Variables.action = "Sell";
@@ -647,7 +647,7 @@ public class Inventrory
       }
       if (e.getSlot() == 50)
       {
-        Variables.price = 0;
+        Variables.price = 0.0;
         Variables.action = "";
         InventoryOpen.UpdateInventoryChoose(player, Variables.page, "Category items", (ArrayList)YamlConfig.getCategoryConfiguration().getList("Category." + Variables.category_name + ".items"));
       }
@@ -753,11 +753,11 @@ public class Inventrory
         String buy_price = YamlConfig.getShopConfiguration().getString("Items." + code + ".buy");
         int buy_amount = Integer.parseInt(YamlConfig.getShopConfiguration().getString("Items." + code + ".buy_amount"));
         if ((buy_price.length() > 0) && (buy_amount > 0)) {
-          if (ShopPlus.getEconomy().getBalance(player) > Integer.parseInt(buy_price))
+          if (ShopPlus.getEconomy().getBalance(player) > Double.parseDouble(buy_price))
           {
             if (MaxItems.getMaxAmount(player, code) >= buy_amount)
             {
-              EconomyResponse process = ShopPlus.getEconomy().withdrawPlayer(player, Integer.parseInt(buy_price));
+              EconomyResponse process = ShopPlus.getEconomy().withdrawPlayer(player, Double.parseDouble(buy_price));
               if (process.transactionSuccess())
               {
                 player.getInventory().addItem(new ItemStack[] { GetCode.getStackPlayer(code, buy_amount) });
@@ -774,18 +774,21 @@ public class Inventrory
           }
         }
       }
-      if ((e.getSlot() >= 10) && (e.getSlot() <= 33) && (e.getClick() == ClickType.RIGHT) && (item_clicked.getType() != Material.AIR))
+      if ((e.getSlot() >= 10) && (e.getSlot() <= 33) && (e.getClick() == ClickType.RIGHT || e.getClick() == ClickType.SHIFT_RIGHT) && (item_clicked.getType() != Material.AIR))
       {
         String code = "code_" + item_clicked.getTypeId() + "/" + item_clicked.getData().getData();
         
         String sell_price = YamlConfig.getShopConfiguration().getString("Items." + code + ".sell");
         int sell_amount = Integer.parseInt(YamlConfig.getShopConfiguration().getString("Items." + code + ".sell_amount"));
         
+        // Check if was shift clicked, change amount to one stack
+        
+        
         int player_has = MaxItems.getPlayerAmount(code, player);
         if ((sell_price.length() > 0) && (sell_amount > 0)) {
           if (sell_amount <= player_has)
           {
-            EconomyResponse process = ShopPlus.getEconomy().depositPlayer(player, Integer.parseInt(sell_price));
+            EconomyResponse process = ShopPlus.getEconomy().depositPlayer(player, Double.parseDouble(sell_price));
             if (process.transactionSuccess())
             {
               player.getInventory().removeItem(new ItemStack[] { GetCode.getStackPlayer(code, sell_amount) });

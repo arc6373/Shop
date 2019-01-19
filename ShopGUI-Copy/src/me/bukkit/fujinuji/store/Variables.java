@@ -22,7 +22,7 @@ public class Variables
   public static String visibility_edit;
   public static ArrayList<String> available_category_items;
   public static ArrayList<String> final_items;
-  public static int price;
+  public static double price;
   public static String action;
   public static String item_code;
   public static String category_name;
