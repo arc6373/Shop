@@ -4,36 +4,40 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.Map;
+import java.util.List;
+
 import me.bukkit.fujinuji.ShopPlus;
 import me.bukkit.fujinuji.gui.CategoryManager;
 import me.bukkit.fujinuji.gui.InventoryOpen;
 import me.bukkit.fujinuji.gui.MainMenu;
 import me.bukkit.fujinuji.gui.PlayerGUI;
 import me.bukkit.fujinuji.gui.PriceManager;
+import me.bukkit.fujinuji.gui.SellGUI;
 import me.bukkit.fujinuji.store.Items;
 import me.bukkit.fujinuji.store.Restore;
 import me.bukkit.fujinuji.store.Variables;
 import me.bukkit.fujinuji.store.YamlConfig;
 import me.bukkit.fujinuji.util.Comp;
+import me.bukkit.fujinuji.util.EntityUtil;
 import me.bukkit.fujinuji.util.GetCode;
 import me.bukkit.fujinuji.util.MaxItems;
-import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.economy.EconomyResponse;
+
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
-import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.configuration.file.YamlConfigurationOptions;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.ClickType;
 import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.bukkit.material.MaterialData;
+
+import de.dustplanet.silkspawners.SilkSpawners;
+import de.dustplanet.util.SilkUtil;
 
 public class Inventrory
   implements Listener
@@ -42,6 +46,31 @@ public class Inventrory
   String name;
   
   @EventHandler
+  public void invClose(InventoryCloseEvent e)
+  {
+	  if (ShopPlus.sellInv.containsKey((Player)e.getPlayer()))
+	  {
+		  	Player p = (Player)e.getPlayer();
+		  	// handle cancel
+			Inventory inv = ShopPlus.sellInv.get(p);
+			ShopPlus.sellInv.remove(p);
+			ItemStack[] items = inv.getContents();
+			player.closeInventory();
+			
+			int index = 0;
+			for (ItemStack is : items)
+			{
+				if (is != null && index < 43)
+				{
+					player.getInventory().addItem(is);
+				}
+				index += 1;
+			}
+	  }
+  }
+  
+  @SuppressWarnings("deprecation")
+@EventHandler
   public void invInteract(InventoryClickEvent e)
   {
     if (!(e.getWhoClicked() instanceof Player)) {
@@ -550,7 +579,7 @@ public class Inventrory
     if (inventory.getName() == "Category items")
     {
       e.setCancelled(true);
-      if ((e.getSlot() >= 10) && (e.getSlot() <= 33) && (e.getClick() == ClickType.LEFT) && (item_clicked.getType() != Material.AIR))
+      if ((e.getSlot() >= 10) && (e.getSlot() <= 34) && (e.getClick() == ClickType.LEFT) && (item_clicked.getType() != Material.AIR))
       {
         String buy_price = YamlConfig.getShopConfiguration().getString("Items.code_" + item_clicked.getTypeId() + "/" + item_clicked.getData().getData() + ".buy");
         Variables.price = Double.parseDouble(buy_price.length() == 0 ? "0" : buy_price);
@@ -559,7 +588,7 @@ public class Inventrory
         Variables.action = "Buy";
         PriceManager.openPriceSet("Buy", player, Variables.price);
       }
-      if ((e.getSlot() >= 10) && (e.getSlot() <= 33) && (e.getClick() == ClickType.RIGHT) && (item_clicked.getType() != Material.AIR))
+      if ((e.getSlot() >= 10) && (e.getSlot() <= 34) && (e.getClick() == ClickType.RIGHT) && (item_clicked.getType() != Material.AIR))
       {
         String sell_price = YamlConfig.getShopConfiguration().getString("Items.code_" + item_clicked.getTypeId() + "/" + item_clicked.getData().getData() + ".sell");
         Variables.price = Double.parseDouble(sell_price.length() == 0 ? "0" : sell_price);
@@ -725,6 +754,10 @@ public class Inventrory
       if ((e.getSlot() == 49) && (item_clicked.getType() == Material.STAINED_GLASS)) {
         player.closeInventory();
       }
+      if ((e.getSlot() == 53) && (item_clicked.getType() == Material.MINECART))
+      {
+    	  SellGUI.openGUI(player);
+      }
       if ((e.getSlot() >= 10) && (e.getSlot() <= 33) && (e.getSlot() != 28))
       {
         Variables.player_last_list.put(player.getName(), Integer.valueOf(0));
@@ -753,15 +786,41 @@ public class Inventrory
         String buy_price = YamlConfig.getShopConfiguration().getString("Items." + code + ".buy");
         int buy_amount = Integer.parseInt(YamlConfig.getShopConfiguration().getString("Items." + code + ".buy_amount"));
         if ((buy_price.length() > 0) && (buy_amount > 0)) {
-          if (ShopPlus.getEconomy().getBalance(player) > Double.parseDouble(buy_price))
+          if (ShopPlus.getEconomy().getBalance(player) >= Double.parseDouble(buy_price))
           {
             if (MaxItems.getMaxAmount(player, code) >= buy_amount)
             {
               EconomyResponse process = ShopPlus.getEconomy().withdrawPlayer(player, Double.parseDouble(buy_price));
               if (process.transactionSuccess())
               {
-                player.getInventory().addItem(new ItemStack[] { GetCode.getStackPlayer(code, buy_amount) });
-                player.sendMessage(ChatColor.GRAY + "[" + ChatColor.GREEN + "Shop" + ChatColor.GRAY + "] " + ChatColor.GREEN + "You've bought " + ChatColor.GOLD + buy_amount + " item" + (buy_amount == 1 ? "" : "s") + ChatColor.GREEN + " for " + ChatColor.GOLD + buy_price);
+            	  if (item_clicked.getTypeId() != 52)
+            	  {
+            	  		player.getInventory().addItem(new ItemStack[] { GetCode.getStackPlayer(code, buy_amount) });
+            	  		player.sendMessage(ChatColor.GRAY + "[" + ChatColor.GREEN + "Shop" + ChatColor.GRAY + "] " + ChatColor.GREEN + "You've bought " + ChatColor.GOLD + buy_amount + " item" + (buy_amount == 1 ? "" : "s") + ChatColor.GREEN + " for " + ChatColor.GOLD + buy_price);
+            	  }
+            	  else
+            	  {
+            		  
+            		  String name = ChatColor.stripColor( item_clicked.getItemMeta().getDisplayName() );
+            		  String entName = ( (name.split (":") ) [1] ).replaceAll(" ", ""); // Mob Spawner: Iron Golem will return IronGolem
+            		  int entityID;
+            		  
+            		  if ( EntityUtil.entityIDS.containsKey( entName ) )
+            		  {
+            			  entityID = EntityUtil.entityIDS.get( entName );
+            		  }
+            		  else
+            		  {
+            			  entityID = 90; // Pig as default
+            		  }
+            		  
+            		  SilkUtil silk = SilkUtil.hookIntoSilkSpanwers();
+            		  ItemStack is = silk.newSpawnerItem( (short)entityID, item_clicked.getItemMeta().getDisplayName());
+            		              		  
+            		  player.getInventory().addItem( is );
+            		  //Bukkit.getServer().dispatchCommand( Bukkit.getConsoleSender(), String.format("ss give %s %s 1", player.getName(), entName) );               		  
+            		  player.sendMessage(ChatColor.GRAY + "[" + ChatColor.GREEN + "Shop" + ChatColor.GRAY + "] " + ChatColor.GREEN + "You've bought " + ChatColor.GOLD + buy_amount + " item" + (buy_amount == 1 ? "" : "s") + ChatColor.GREEN + " for " + ChatColor.GOLD + buy_price);
+            	  }
               }
             }
             else
@@ -822,6 +881,72 @@ public class Inventrory
           InventoryOpen.UpdateInventoryChoose(player, ((Integer)Variables.player_page_list.get(player.getName())).intValue(), "Items", itemss);
         }
       }
+    }
+    if (inventory.getName().equals( "Sell Items" ) )
+    {
+    	if (e.getSlot() >= 45 && e.getSlot() < 54)
+    	{
+    		e.setCancelled( true );
+    		
+    		if (e.getSlot() == 45)
+    		{
+    			// handle cancel
+    			Inventory inv = ShopPlus.sellInv.get(player);
+    			ItemStack[] items = inv.getContents();
+    			player.closeInventory();
+    			
+    			int index = 0;
+    			for (ItemStack is : items)
+    			{
+    				if (is != null && index < 43)
+    				{
+    					player.getInventory().addItem(is);
+    				}
+    				index += 1;
+    			}
+    		}
+    		
+    		if (e.getSlot() == 49)
+    		{
+    			Inventory inv = ShopPlus.sellInv.get(player);
+    			ItemStack[] items = inv.getContents();
+    			
+    			// sell
+    			double price = 0.0;
+    			
+    			int index = 0;
+    			for (ItemStack is : items)
+    			{
+    				if (is != null && index < 43)
+    				{
+    					String code = "code_" + is.getTypeId() + "/" + is.getData().getData();
+    					String salePriceStr = YamlConfig.getShopConfiguration().getString("Items." + code + ".sell");
+    					
+    					if (salePriceStr.length() > 0)
+    					{
+    						double salePrice = Double.valueOf ( salePriceStr );
+    						price += (salePrice * is.getAmount());
+    						is.setType(Material.AIR);
+    					}
+    				}
+    				index += 1;
+    			}
+    			
+    			// Do economy magic and clear inventory
+    			ShopPlus.getEconomy().depositPlayer(player, price);
+    			inv.setContents(items);
+    			player.updateInventory();
+    			
+    			if (price > 0)
+    			{
+    				player.sendMessage( ChatColor.GOLD + String.format("Sold $%s of goods! ", String.valueOf(price) ) );
+    			}
+    			else 
+    			{
+    				player.sendMessage( ChatColor.RED + "No items available to sell." );
+    			}
+    		}
+    	}
     }
   }
 }

@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="E:/Servers/1.8.8/spigot.jar"/>
 	<classpathentry kind="lib" path="E:/Servers/Plugins/Vault.jar"/>
+	<classpathentry kind="lib" path="E:/Servers/Plugins/SilkSpawners.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -22,6 +22,7 @@ public class PlayerGUI
   private static ItemStack back_item = new ItemStack(Material.ARROW, 1);
   private static ItemStack next_item = new ItemStack(Material.ARROW, 1);
   private static ItemStack exit_item = new ItemStack(Material.STAINED_GLASS, 1, (short)13);
+  private static ItemStack sell_item = new ItemStack(Material.MINECART, 1);
   
   public static void categorySelect(Player player)
   {
@@ -71,6 +72,7 @@ public class PlayerGUI
         inventory.setItem(28, back_item);
       }
       inventory.setItem(49, exit_item);
+      inventory.setItem(53, sell_item);
       
       player.openInventory(inventory);
     }
@@ -104,6 +106,7 @@ public class PlayerGUI
     
     inventory.setItem(22, no_found);
     inventory.setItem(49, back);
+    inventory.setItem(53, sell_item);
     
     player.openInventory(inventory);
   }
@@ -113,13 +116,16 @@ public class PlayerGUI
     ItemMeta back_meta = back_item.getItemMeta();
     ItemMeta next_meta = next_item.getItemMeta();
     ItemMeta exit_meta = exit_item.getItemMeta();
+    ItemMeta sell_meta = sell_item.getItemMeta();
     
     back_meta.setDisplayName(ChatColor.GREEN + "Back page");
     next_meta.setDisplayName(ChatColor.GREEN + "Next page");
     exit_meta.setDisplayName(ChatColor.GREEN + "Exit");
+    sell_meta.setDisplayName(ChatColor.GREEN + "Sell Items");
     
     back_item.setItemMeta(back_meta);
     next_item.setItemMeta(next_meta);
     exit_item.setItemMeta(exit_meta);
+    sell_item.setItemMeta(sell_meta);
   }
 }

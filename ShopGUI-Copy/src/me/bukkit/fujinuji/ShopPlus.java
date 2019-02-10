@@ -10,9 +10,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import me.bukkit.fujinuji.gui.MainMenu;
 import me.bukkit.fujinuji.gui.PlayerGUI;
+import me.bukkit.fujinuji.gui.SellGUI;
 import me.bukkit.fujinuji.listener.ChatInput;
 import me.bukkit.fujinuji.listener.Inventrory;
 import me.bukkit.fujinuji.listener.OnQuit;
+import me.bukkit.fujinuji.listener.PlayerInteractHandler;
 import me.bukkit.fujinuji.store.Items;
 import me.bukkit.fujinuji.store.Variables;
 import me.bukkit.fujinuji.util.Availability;
@@ -28,6 +30,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.Inventory;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.RegisteredServiceProvider;
@@ -47,8 +50,12 @@ public class ShopPlus
   private static final Logger log = Logger.getLogger("Minecraft");
   private Info info = new Info();
   
+  public static Map<Player, Inventory> sellInv;
+  
   public void onEnable()
   {
+	sellInv = new HashMap<Player, Inventory>();
+	  
     getServer().getPluginManager().registerEvents(new Inventrory(), this);
     getServer().getPluginManager().registerEvents(new ChatInput(), this);
     getServer().getPluginManager().registerEvents(new OnQuit(), this);

@@ -3,6 +3,7 @@ package me.bukkit.fujinuji.gui;
 import java.util.ArrayList;
 import java.util.Map;
 import me.bukkit.fujinuji.store.Variables;
+import me.bukkit.fujinuji.store.YamlConfig;
 import me.bukkit.fujinuji.util.GetArray;
 import me.bukkit.fujinuji.util.GetCode;
 import org.bukkit.Bukkit;
@@ -101,9 +102,18 @@ public class InventoryOpen
         }
         else if (inventory_name == "Items")
         {
-          ItemStack item = GetCode.getItemStack(GetCode.getMinecraftCode((String)names.get(current)));
+          String value = GetCode.getMinecraftCode((String)names.get(current));
+          String name = YamlConfig.getShopConfiguration().getString("Items.code_" + value.replace(":", "/") + ".name");
+          
+          if (value.startsWith("52"))
+          {
+        	  value = "52:0";
+          }
+                    
+          ItemStack item = GetCode.getItemStack( value );
           ItemMeta item_meta = item.getItemMeta();
           
+          item_meta.setDisplayName( ChatColor.translateAlternateColorCodes('&', name ) );
           item_meta.setLore(GetArray.getShopDetailsPlayer((String)names.get(current)));
           item.setItemMeta(item_meta);
           
@@ -112,8 +122,23 @@ public class InventoryOpen
         }
         else
         {
-          inventory.setItem(i * 9 - j, GetCode.getItemStack(GetCode.getMinecraftCode((String)names.get(current))));
-          current++;
+            String value = GetCode.getMinecraftCode((String)names.get(current));
+            String name = YamlConfig.getShopConfiguration().getString("Items.code_" + value.replace(":", "/") + ".name");
+            
+            if (value.startsWith("52"))
+            {
+          	  value = "52:0";
+            }
+       
+            ItemStack item = GetCode.getItemStack( value );
+            ItemMeta item_meta = item.getItemMeta();
+            
+            item_meta.setDisplayName( ChatColor.translateAlternateColorCodes('&', name ) );
+            item_meta.setDisplayName( name );
+            item.setItemMeta(item_meta);
+        	
+            inventory.setItem(i * 9 - j, item);
+            current++;
         }
       }
     }

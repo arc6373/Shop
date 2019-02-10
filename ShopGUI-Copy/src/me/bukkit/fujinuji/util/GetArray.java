@@ -102,18 +102,25 @@ public class GetArray
     int sell_amount = Integer.parseInt(YamlConfig.getShopConfiguration().getString("Items." + code + ".sell_amount"));
     int buy_amount = Integer.parseInt(YamlConfig.getShopConfiguration().getString("Items." + code + ".buy_amount"));
     
-    lore.add("");
-    if ((sell_price.length() == 0) || (sell_amount == 0)) {
-      lore.add(ChatColor.RED + "No sell details found");
-    } else {
-      lore.add(ChatColor.GREEN + "Right click " + ChatColor.GRAY + "to sell " + ChatColor.GOLD + sell_amount + " item" + (sell_amount == 1 ? "" : "s") + ChatColor.GRAY + " for " + ChatColor.GOLD + sell_price);
+    if ( YamlConfig.getShopConfiguration().isSet("Items." + code + ".lore") );
+    {
+    	List<String> locLore = YamlConfig.getShopConfiguration().getStringList("Items." + code + ".lore");
+    	lore.addAll(locLore);
     }
+    
     lore.add("");
     if ((buy_price.length() == 0) || (buy_amount == 0)) {
       lore.add(ChatColor.RED + "No buy details found");
     } else {
       lore.add(ChatColor.GREEN + "Left click " + ChatColor.GRAY + "to buy " + ChatColor.GOLD + buy_amount + " item" + (buy_amount == 1 ? "" : "s") + ChatColor.GRAY + " for " + ChatColor.GOLD + buy_price);
     }
+    
+    if ((sell_price.length() == 0) || (sell_amount == 0)) {
+      lore.add(ChatColor.RED + "No sell details found");
+    } else {
+      lore.add(ChatColor.GREEN + "Right click " + ChatColor.GRAY + "to sell " + ChatColor.GOLD + sell_amount + " item" + (sell_amount == 1 ? "" : "s") + ChatColor.GRAY + " for " + ChatColor.GOLD + sell_price);
+    }
+
     return lore;
   }
   

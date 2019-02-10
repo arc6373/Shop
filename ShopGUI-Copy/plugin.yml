@@ -3,4 +3,4 @@ main: me.bukkit.fujinuji.ShopPlus
 version: 1.0.3
 commands: 
      shop:
-      descrition: Open the shop
+       description: Open the shop

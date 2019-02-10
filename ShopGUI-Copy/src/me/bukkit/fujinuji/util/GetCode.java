@@ -4,8 +4,9 @@ import org.bukkit.inventory.ItemStack;
 
 public class GetCode
 {
-  public static ItemStack getItemStack(String code)
-  {
+  @SuppressWarnings("deprecation")
+public static ItemStack getItemStack(String code)
+  {  
     if (!haveTwoPoints(code)) {
       return new ItemStack(Integer.parseInt(code), 1);
     }
@@ -49,7 +50,8 @@ public class GetCode
     return result.toString();
   }
   
-  public static ItemStack getStackPlayer(String inCode, int amount)
+  @SuppressWarnings("deprecation")
+public static ItemStack getStackPlayer(String inCode, int amount)
   {
     String code = getMinecraftCode(inCode);
     
